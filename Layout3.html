@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Layout3</title>
+    <style>
+        mgb{
+            margin-bottom: 40px;
+        }
+        .col{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+        }
+        .box{
+
+            border-radius: 15px;
+            height: 100%;
+
+        }
+        .row{
+            display: flex;
+            flex-direction: row;
+        }
+        h1{
+            text-align: center;
+            color: darkgray;
+        }
+        img{
+            width: 100%;
+        }
+        .vien
+        {
+            border: 1px solid red;
+            width: 100%;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+<h1>CONTACTS</h1>
+    <div class="mgb">
+        <img src="https://static.addtoany.com/images/dracaena-cinnabari.jpg" alt="">
+    </div>
+    <div>
+        <div class="row mgb" >
+            <div class="col" style="margin-right: 40px">
+                <div class="box row" style="margin-top: 40px">
+                   <input type="text" class="vien">
+                </div>
+
+            </div>
+            <div class="col" >
+                <div class="box row" style="margin-top: 40px">
+                    <input type="text" class="vien">
+                </div>
+            </div>
+        </div>
+        <div class="mgb">
+            <div class="box row" style="margin-top: 40px">
+                <input type="text" class="vien">
+            </div>
+        </div>
+        <div>
+            <div class="box col" style="text-align: center; margin-top: 40px" >
+                <input type="text" class="vien">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
